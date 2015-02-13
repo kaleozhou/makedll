@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23B9DD00-48A9-413D-8A2D-D87341193339}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MODEL</RootNamespace>
+    <AssemblyName>MODEL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\MODEL.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ads.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Applicants.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Area.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceStatistics.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Audition.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BalanceOfWater.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingInformation.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessMan.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cashout.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CCArea.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CommonContact.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contract.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractApplication.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReturn.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Debriefing.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntryFlow.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressList.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Favorite.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FileCenter.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialAccounts.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FixedAssets.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupStage.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HeadOffice.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LanEmail.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Leader.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveMessage.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LineItinerary.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LineSchedule.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoginLog.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MODEL.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MODEL.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="News.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Notice.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineChat.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderToCommonContact.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherPayment.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherSupply.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Para.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PayToSupplier.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PCArea.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueInfo.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Receivables.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recharge.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecruitmentApplication.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecruitmentEmployee.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Refund.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RefundWords.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReminderFee.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RetailSales.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Salary.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SetEmployeeSalary.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SignContract.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SocialSecurity.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SocialSecurityAttrition.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SocialSecurityInto.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierContact.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Task.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimeBucketRecord.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionFlow.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Travel.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgency.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgencyContact.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TravelFee.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TravelProduct.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UseChapterFlow.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Visa.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VisitRecord.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkLog.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkPlan.cs">
+      <DependentUpon>MODEL.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="MODEL.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MODEL.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="MODEL.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MODEL.edmx</DependentUpon>
+      <LastGenOutput>MODEL.Context.cs</LastGenOutput>
+    </None>
+    <None Include="MODEL.edmx.diagram">
+      <DependentUpon>MODEL.edmx</DependentUpon>
+    </None>
+    <None Include="MODEL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MODEL.edmx</DependentUpon>
+      <LastGenOutput>MODEL.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

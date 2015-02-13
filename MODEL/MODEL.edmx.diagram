@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="daacf41be53d4b2290ae66e878f94576" Name="Diagram1" ZoomLevel="58">
+        <EntityTypeShape EntityType="BlueVacationModel.Ads" Width="1.5" PointX="2.75" PointY="14.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Applicants" Width="1.5" PointX="2.75" PointY="2.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.Area" Width="1.5" PointX="3.75" PointY="64.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.AttendanceStatistics" Width="1.5" PointX="5.75" PointY="9.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Audition" Width="1.5" PointX="5" PointY="5.25" />
+        <EntityTypeShape EntityType="BlueVacationModel.BalanceOfWater" Width="1.5" PointX="14" PointY="1.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.BookingInformation" Width="1.5" PointX="9" PointY="7" />
+        <EntityTypeShape EntityType="BlueVacationModel.BusinessMan" Width="1.5" PointX="3" PointY="38.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.Cashout" Width="1.5" PointX="15.75" PointY="7.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.CCArea" Width="1.5" PointX="15.75" PointY="11.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.CommonContact" Width="1.5" PointX="13.5" PointY="30.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Contract" Width="1.5" PointX="5.25" PointY="31.875" />
+        <EntityTypeShape EntityType="BlueVacationModel.ContractApplication" Width="1.5" PointX="3" PointY="24.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.ContractReturn" Width="1.5" PointX="3" PointY="32.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.Debriefing" Width="1.5" PointX="3" PointY="10.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Employee" Width="1.5" PointX="3" PointY="47.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.EntryFlow" Width="1.5" PointX="5" PointY="1.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.ExpressList" Width="1.5" PointX="15.75" PointY="15.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Favorite" Width="1.5" PointX="8.25" PointY="41.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.FileCenter" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.FinancialAccounts" Width="1.5" PointX="11.75" PointY="1.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.FixedAssets" Width="1.5" PointX="17.75" PointY="6.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.GroupStage" Width="1.5" PointX="9" PointY="20.5" />
+        <EntityTypeShape EntityType="BlueVacationModel.HeadOffice" Width="1.5" PointX="17.75" PointY="12.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Hotel" Width="1.5" PointX="17.75" PointY="17.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Invoice" Width="1.5" PointX="16.25" PointY="45.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.LanEmail" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Leader" Width="1.5" PointX="19.75" PointY="5.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.LeaveMessage" Width="1.5" PointX="8.25" PointY="44.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.LineItinerary" Width="1.5" PointX="9" PointY="14.25" />
+        <EntityTypeShape EntityType="BlueVacationModel.LineSchedule" Width="1.5" PointX="11.25" PointY="35.25" />
+        <EntityTypeShape EntityType="BlueVacationModel.LoginLog" Width="1.5" PointX="19.75" PointY="9.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Messages" Width="1.5" PointX="8.25" PointY="36.5" />
+        <EntityTypeShape EntityType="BlueVacationModel.News" Width="1.5" PointX="19.75" PointY="13.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Notice" Width="1.5" PointX="19.75" PointY="18.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.OnlineChat" Width="1.5" PointX="11.25" PointY="40.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.OrderDetails" Width="1.5" PointX="15.75" PointY="42.5" />
+        <EntityTypeShape EntityType="BlueVacationModel.Orders" Width="1.5" PointX="13.5" PointY="36.25" />
+        <EntityTypeShape EntityType="BlueVacationModel.OrderToCommonContact" Width="1.5" PointX="15.75" PointY="39.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.OtherPayment" Width="1.5" PointX="20.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.OtherSupply" Width="1.5" PointX="21.75" PointY="5.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Para" Width="1.5" PointX="21.75" PointY="9.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Payment" Width="1.5" PointX="13.5" PointY="13.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.PayToSupplier" Width="1.5" PointX="15.75" PointY="36.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.PCArea" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.QueueInfo" Width="1.5" PointX="13.5" PointY="25.875" />
+        <EntityTypeShape EntityType="BlueVacationModel.Receivables" Width="1.5" PointX="21.75" PointY="13.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Recharge" Width="1.5" PointX="22.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.RecruitmentApplication" Width="1.5" PointX="15.75" PointY="22.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.RecruitmentEmployee" Width="1.5" PointX="17.75" PointY="22.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Refund" Width="1.5" PointX="3" PointY="58.875" />
+        <EntityTypeShape EntityType="BlueVacationModel.RefundWords" Width="1.5" PointX="5.25" PointY="40.25" />
+        <EntityTypeShape EntityType="BlueVacationModel.ReminderFee" Width="1.5" PointX="23.75" PointY="4.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.RetailSales" Width="1.5" PointX="0.75" PointY="41.5" />
+        <EntityTypeShape EntityType="BlueVacationModel.Salary" Width="1.5" PointX="8.25" PointY="49" />
+        <EntityTypeShape EntityType="BlueVacationModel.Schedule" Width="1.5" PointX="23.75" PointY="8.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.SetEmployeeSalary" Width="1.5" PointX="5.25" PointY="49.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.SignContract" Width="1.5" PointX="13.5" PointY="9.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.SocialSecurity" Width="1.5" PointX="5.25" PointY="78.875" />
+        <EntityTypeShape EntityType="BlueVacationModel.SocialSecurityAttrition" Width="1.5" PointX="5.25" PointY="75.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.SocialSecurityInto" Width="1.5" PointX="23.75" PointY="12.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Supplier" Width="1.5" PointX="11.25" PointY="13.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.SupplierContact" Width="1.5" PointX="9" PointY="29.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.Task" Width="1.5" PointX="0.75" PointY="10" />
+        <EntityTypeShape EntityType="BlueVacationModel.TimeBucketRecord" Width="1.5" PointX="11.25" PointY="45.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.TransactionFlow" Width="1.5" PointX="23.75" PointY="16.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Travel" Width="1.5" PointX="9" PointY="2.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.TravelAgency" Width="1.5" PointX="6" PointY="65.125" />
+        <EntityTypeShape EntityType="BlueVacationModel.TravelAgencyContact" Width="1.5" PointX="8.25" PointY="64.625" />
+        <EntityTypeShape EntityType="BlueVacationModel.TravelFee" Width="1.5" PointX="9" PointY="10.5" />
+        <EntityTypeShape EntityType="BlueVacationModel.TravelProduct" Width="1.5" PointX="6.75" PointY="15.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.UseChapterFlow" Width="1.5" PointX="19.75" PointY="23.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.Visa" Width="1.5" PointX="9" PointY="60.375" />
+        <EntityTypeShape EntityType="BlueVacationModel.Visitor" Width="1.5" PointX="11.25" PointY="25" />
+        <EntityTypeShape EntityType="BlueVacationModel.VisitRecord" Width="1.5" PointX="5.25" PointY="45.875" />
+        <EntityTypeShape EntityType="BlueVacationModel.WorkLog" Width="1.5" PointX="21.75" PointY="23.75" />
+        <EntityTypeShape EntityType="BlueVacationModel.WorkPlan" Width="1.5" PointX="23.75" PointY="23.75" />
+        <AssociationConnector Association="BlueVacationModel.FK_Audition_Applicants" />
+        <AssociationConnector Association="BlueVacationModel.FK_EntryFlow_Applicants" />
+        <AssociationConnector Association="BlueVacationModel.FK_TravelAgency_Area" />
+        <AssociationConnector Association="BlueVacationModel.FK_BalanceOfWater_FinancialAccounts" />
+        <AssociationConnector Association="BlueVacationModel.FK_BookingInformation_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_BusinessMan_RetailSales" />
+        <AssociationConnector Association="BlueVacationModel.FK_Favorite_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_LeaveMessage_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_LineSchedule_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_Messages_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_OnlineChat_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_Orders_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_RefundWords_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_VisitRecord_BusinessMan" />
+        <AssociationConnector Association="BlueVacationModel.FK_CommonContact_Visitor" />
+        <AssociationConnector Association="BlueVacationModel.FK_OrderToCommonContact_CommonContact" />
+        <AssociationConnector Association="BlueVacationModel.FK_Contract_ContractApplication" />
+        <AssociationConnector Association="BlueVacationModel.FK_Contract_ContractReturn" />
+        <AssociationConnector Association="BlueVacationModel.FK_ContractReturn_RetailSales" />
+        <AssociationConnector Association="BlueVacationModel.FK_Debriefing_Task" />
+        <AssociationConnector Association="BlueVacationModel.FK_Employee_RetailSales" />
+        <AssociationConnector Association="BlueVacationModel.FK_Salary_Employee" />
+        <AssociationConnector Association="BlueVacationModel.FK_SetEmployeeSalary_Employee" />
+        <AssociationConnector Association="BlueVacationModel.FK_SocialSecurity_Employee" />
+        <AssociationConnector Association="BlueVacationModel.FK_SocialSecurityAttrition_Employee" />
+        <AssociationConnector Association="BlueVacationModel.FK_TimeBucketRecord_Employee" />
+        <AssociationConnector Association="BlueVacationModel.FK_Favorite_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_GroupStage_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_Invoice_GroupStage" />
+        <AssociationConnector Association="BlueVacationModel.FK_LineSchedule_GroupStage" />
+        <AssociationConnector Association="BlueVacationModel.FK_Orders_GroupStage" />
+        <AssociationConnector Association="BlueVacationModel.FK_QueueInfo_GroupStage" />
+        <AssociationConnector Association="BlueVacationModel.FK_Invoice_TravelAgency" />
+        <AssociationConnector Association="BlueVacationModel.FK_LeaveMessage_TravelAgency" />
+        <AssociationConnector Association="BlueVacationModel.FK_Itinerary_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_Orders_LineSchedule" />
+        <AssociationConnector Association="BlueVacationModel.FK_Messages_Supplier" />
+        <AssociationConnector Association="BlueVacationModel.FK_OnlineChat_Supplier" />
+        <AssociationConnector Association="BlueVacationModel.FK_OnlineChat_SupplierContact" />
+        <AssociationConnector Association="BlueVacationModel.FK_OrderDetails_orders" />
+        <AssociationConnector Association="BlueVacationModel.FK_OrderDetails_Visitor1" />
+        <AssociationConnector Association="BlueVacationModel.FK_Orders_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_Orders_Visitor" />
+        <AssociationConnector Association="BlueVacationModel.FK_OrderToCommonContact_Orders" />
+        <AssociationConnector Association="BlueVacationModel.FK_PayToSupplier_Orders" />
+        <AssociationConnector Association="BlueVacationModel.FK_Payment_Supplier" />
+        <AssociationConnector Association="BlueVacationModel.FK_PayToSupplier_Payment" />
+        <AssociationConnector Association="BlueVacationModel.FK_PCArea_PCArea" />
+        <AssociationConnector Association="BlueVacationModel.FK_QueueInfo_Visitor" />
+        <AssociationConnector Association="BlueVacationModel.FK_Refund_Supplier" />
+        <AssociationConnector Association="BlueVacationModel.FK_RefundWords_Refund" />
+        <AssociationConnector Association="BlueVacationModel.FK_RefundWords_SupplierContact" />
+        <AssociationConnector Association="BlueVacationModel.FK_RefundWords_Visitor" />
+        <AssociationConnector Association="BlueVacationModel.FK_SetEmployeeSalary_RetailSales" />
+        <AssociationConnector Association="BlueVacationModel.FK_TimeBucketRecord_RetailSales" />
+        <AssociationConnector Association="BlueVacationModel.FK_Salary_TimeBucketRecord" />
+        <AssociationConnector Association="BlueVacationModel.FK_SignContract_Supplier" />
+        <AssociationConnector Association="BlueVacationModel.FK_ContactPerson_Supplier" />
+        <AssociationConnector Association="BlueVacationModel.FK_Travel_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_TravelAgencyContact_TravelAgency" />
+        <AssociationConnector Association="BlueVacationModel.FK_VisitRecord_TravelAgency" />
+        <AssociationConnector Association="BlueVacationModel.FK_TravelFee_TravelProduct" />
+        <AssociationConnector Association="BlueVacationModel.FK_Visa_TravelProduct" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
